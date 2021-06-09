@@ -1,0 +1,22 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000s\u0000a\u0000s\u0000s\u0000-\u0000f\u0000u\u0000n\u0000d\u0000a\u0000m\u0000e\u0000n\u0000t\u0000a\u0000l\u0000s\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass src/ -o public/style/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dumaaas/sass-fundamentals.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dumaaas/sass-fundamentals/issues"
+  },
+  "homepage": "https://github.com/dumaaas/sass-fundamentals#readme",
+  "dependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

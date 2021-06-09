@@ -1,0 +1,27 @@
+@import '_variables';
+
+body h1 {
+    color: $hopbush;
+  }
+  
+  .btn {
+    padding: 2px 10px;
+    border: 1px solid $hopbush;
+    border-radius: 2px;
+  }
+  .btn.btn-primary {
+    color: $white;
+    border-color: $venus;
+    background-color: $hopbush;
+  }
+  .btn.btn-secondary {
+    color: $black;
+    border-color: $patina;
+    background-color: $nebula;
+  }
+  .btn:disabled {
+    opacity: $btn-disabled-opacity;
+  }
+  
+  /*# sourceMappingURL=style.css.map */
+  
