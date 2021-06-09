@@ -1,29 +1,22 @@
 body h1 {
-  color: #c69;
-}
+  color: #c69; }
 
 .btn {
   padding: 2px 10px;
   border: 1px solid #c69;
-  border-radius: 2px;
-}
+  border-radius: 2px; }
 
 .btn.btn-primary {
   color: #fff;
   border-color: #998099;
-  background-color: #c69;
-}
+  background-color: #c69; }
 
 .btn.btn-secondary {
   color: #000;
   border-color: #699;
-  background-color: #d2e1dd;
-}
+  background-color: #d2e1dd; }
 
 .btn:disabled {
-  opacity: 0.5;
-}
+  opacity: 0.5; }
 
 /*# sourceMappingURL=style.css.map */
-
-/*# sourceMappingURL=variables.css.map */
