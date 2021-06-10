@@ -2,118 +2,86 @@
   padding: 2px 10px;
   border: 1px solid transparent;
   border-radius: 2px;
-  color: #000;
-}
-.btn:hover:not(:disabled) {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
-}
-.btn:disabled {
-  color: #666;
-  opacity: 0.5;
-}
+  color: #000; }
+  .btn:hover:not(:disabled) {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8); }
+  .btn:disabled {
+    color: #666;
+    opacity: 0.5; }
 
 .theme-1 {
-  padding-top: 20px;
-}
-.theme-1 .btn-primary {
-  background-color: #1a4d4d;
-  border-color: #1a4d4d;
-  color: #fff;
-}
-.theme-1 .btn-primary:hover {
-  background: #26d9d9;
-}
-.theme-1 .btn-secondary {
-  background-color: #3c4d1a;
-  border-color: #3c4d1a;
-  color: #fff;
-}
-.theme-1 .btn-secondary:hover {
-  background: #9dd926;
-}
-.theme-1 .btn-other {
-  background-color: #3c1a4d;
-  border-color: #3c1a4d;
-  color: #fff;
-}
-.theme-1 .btn-other:hover {
-  background: #9d26d9;
-}
-.theme-1 .btn-other2 {
-  background-color: #4d201a;
-  border-color: #4d201a;
-  color: #fff;
-}
-.theme-1 .btn-other2:hover {
-  background: #d93e26;
-}
+  padding-top: 20px; }
+  .theme-1 .btn-primary {
+    background-color: #1a4d4d;
+    border-color: #1a4d4d;
+    color: #fff; }
+    .theme-1 .btn-primary:hover {
+      background: #26d9d9; }
+  .theme-1 .btn-secondary {
+    background-color: #3c4d1a;
+    border-color: #3c4d1a;
+    color: #fff; }
+    .theme-1 .btn-secondary:hover {
+      background: #9dd926; }
+  .theme-1 .btn-other {
+    background-color: #3c1a4d;
+    border-color: #3c1a4d;
+    color: #fff; }
+    .theme-1 .btn-other:hover {
+      background: #9d26d9; }
+  .theme-1 .btn-other2 {
+    background-color: #4d201a;
+    border-color: #4d201a;
+    color: #fff; }
+    .theme-1 .btn-other2:hover {
+      background: #d93e26; }
 
 .theme-2 {
-  padding-top: 20px;
-}
-.theme-2 .btn-primary {
-  background-color: #3124fd;
-  border-color: #3124fd;
-}
-.theme-2 .btn-primary:hover {
-  background: #bfbbff;
-}
-.theme-2 .btn-secondary {
-  background-color: #24fd31;
-  border-color: #24fd31;
-}
-.theme-2 .btn-secondary:hover {
-  background: #bbffbf;
-}
-.theme-2 .btn-other {
-  background-color: #fd3124;
-  border-color: #fd3124;
-}
-.theme-2 .btn-other:hover {
-  background: #ffbfbb;
-}
-.theme-2 .btn-other2 {
-  background-color: #d3fd24;
-  border-color: #d3fd24;
-}
-.theme-2 .btn-other2:hover {
-  background: #f2ffbb;
-}
+  padding-top: 20px; }
+  .theme-2 .btn-primary {
+    background-color: #3124fd;
+    border-color: #3124fd; }
+    .theme-2 .btn-primary:hover {
+      background: #bfbbff; }
+  .theme-2 .btn-secondary {
+    background-color: #24fd31;
+    border-color: #24fd31; }
+    .theme-2 .btn-secondary:hover {
+      background: #bbffbf; }
+  .theme-2 .btn-other {
+    background-color: #fd3124;
+    border-color: #fd3124; }
+    .theme-2 .btn-other:hover {
+      background: #ffbfbb; }
+  .theme-2 .btn-other2 {
+    background-color: #d3fd24;
+    border-color: #d3fd24; }
+    .theme-2 .btn-other2:hover {
+      background: #f2ffbb; }
 
 .theme-3 {
-  padding-top: 20px;
-}
-.theme-3 .btn-primary {
-  background-color: #993366;
-  border-color: #993366;
-  color: #fff;
-}
-.theme-3 .btn-primary:hover {
-  background: #e87db3;
-}
-.theme-3 .btn-secondary {
-  background-color: #336699;
-  border-color: #336699;
-  color: #fff;
-}
-.theme-3 .btn-secondary:hover {
-  background: #7db3e8;
-}
-.theme-3 .btn-other {
-  background-color: #669933;
-  border-color: #669933;
-  color: #fff;
-}
-.theme-3 .btn-other:hover {
-  background: #b3e87d;
-}
-.theme-3 .btn-other2 {
-  background-color: #339974;
-  border-color: #339974;
-  color: #fff;
-}
-.theme-3 .btn-other2:hover {
-  background: #7de8c1;
-}
-
-/*# sourceMappingURL=functions.css.map */
+  padding-top: 20px; }
+  .theme-3 .btn-primary {
+    background-color: #993366;
+    border-color: #993366;
+    color: #fff; }
+    .theme-3 .btn-primary:hover {
+      background: #e87db3; }
+  .theme-3 .btn-secondary {
+    background-color: #336699;
+    border-color: #336699;
+    color: #fff; }
+    .theme-3 .btn-secondary:hover {
+      background: #7db3e8; }
+  .theme-3 .btn-other {
+    background-color: #669933;
+    border-color: #669933;
+    color: #fff; }
+    .theme-3 .btn-other:hover {
+      background: #b3e87d; }
+  .theme-3 .btn-other2 {
+    background-color: #339974;
+    border-color: #339974;
+    color: #fff; }
+    .theme-3 .btn-other2:hover {
+      background: #7de8c1; }
