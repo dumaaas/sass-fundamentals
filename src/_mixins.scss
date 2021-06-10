@@ -1,3 +1,78 @@
 @mixin btn-color($color) {
     background-color: $color;
 }
+
+@mixin theme($primary-color, $huerot: 120deg, $darkenpct: 20%) {
+    $other-color: adjust-hue($primary-color, $huerot);
+    $other2-color: adjust-hue($primary-color, 188deg);
+    $secondary-color: adjust-hue($primary-color, -$huerot);
+
+    padding-top: 20px;
+
+    .btn-primary {
+        @include btn-base($primary-color);
+    }
+
+    .btn-secondary {
+        @include btn-base($secondary-color);
+    }
+
+    .btn-other {
+        @include btn-base($other-color);
+    }
+
+    .btn-other2 {
+        @include btn-base($other2-color);
+    }
+}
+
+@mixin btn-base($bg, $darken_pct: 20%) {
+    background-color: darken($bg, $darken_pct);
+    border-color: darken($bg, 20%);
+    
+    @if lightness($bg) < 70% {
+        color: $white
+    }
+    
+    &:hover {
+        background: lighten(saturate($bg, 20%), 10%);
+    }
+}
+
+@mixin range-thumb() {
+    &::-moz-range-thumb {
+        @content;
+    }
+
+    &::-ms-thumb {
+        @content;
+    }
+}
+
+@mixin range-thumb2() {
+    &::-ms-thumb {
+        @content;
+    }
+
+    &::-webkit-slider-thumb {
+        @content;
+    }
+}
+
+@mixin range-fill($background: $darkblue, $border: $range_small_border, $border-radius: $range_radius, $box-shadow: $range_shadow) {
+    background: $background;
+    border: $border;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+}
+
+
+@mixin range-track() {
+    &::-webkit-slider-runnable-track {
+        @content
+    }
+
+    &::-moz-range-track {
+        @content
+    }
+}

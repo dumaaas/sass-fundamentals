@@ -1,0 +1,86 @@
+@import '_variables';
+@import '_mixins';
+
+input[type=range] {
+    -webkit-appearance: none;
+    width: $full;
+    background: transparent;
+
+    &::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        border: $range_small_border;
+        height: 36px;
+        width: 16px;
+        border-radius: 3px;
+        background: $white;
+        cursor: pointer;
+        margin-top: -14px;
+        box-shadow: $range_shadow;
+    }
+
+    &:focus {
+        outline: none;
+    }
+
+    &::-ms-track {
+        width: $full;
+        cursor: $pointer;
+        background: $transparent;
+        border-color: $transparent;
+        color: $transparent;
+    }
+
+    @include range-thumb() {
+        width: $full;
+        height: 8.4px;
+        cursor: $pointer;
+        background: $transparent;
+        border-color: $transparent;
+        border-width: 16px 0;
+        animate: 0.2;
+        color: $transparent;
+    }
+
+    @include range-track() {
+        width: $full;
+        height: 8.4px;
+        cursor: $pointer;
+        animate: 0.2s;
+        background: $darkblue;
+        border-radius: 1.3px;
+        border: $range_small_border;
+        box-shadow: $range_shadow;
+    }
+
+    &:focus::-webkit-slider-runnable-track {
+        background: $lightblue;
+    }
+
+    &::-ms-track {
+        width: $full;
+        height: 8.4px;
+        cursor: pointer;
+        background: transparent;
+        border-color: transparent;
+        border-width: 16px 0;
+        color: transparent;
+    }
+
+    &::-ms-fill-lower {
+        @include range-fill($background: $lightblue)
+    }
+
+    &:focus::-ms-fill-lower {
+        background: $darkblue;
+    }
+
+    &::-ms-fill-upper {
+        @include range-fill();
+    }
+
+    &:focus::-ms-fill-upper {
+        background: $lightblue;
+    }
+
+
+}
